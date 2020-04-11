@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world action step
-        uses: p10-t2-lexer-generator-action-alu0100896565@v2
+        uses: alu0100896565/p10-t2-lexer-generator-action-alu0100896565@v2
         id: hello
         with:
           who-to-greet: 'Procesadores de Lenguajes at ULL'
